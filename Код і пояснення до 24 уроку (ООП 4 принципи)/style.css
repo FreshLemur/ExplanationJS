@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.charts-container {
+  display: flex;
+  align-content: center;
+  width: 700px;
+}
+
+.chart {
+  width: 50px;
+  transform: rotate(180deg); /* Застосовуємо обертання на 180 градусів */
+  margin: 25px;
+}
